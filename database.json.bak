@@ -1,0 +1,1465 @@
+{
+     "name": "hazuki-dies-script",
+     "categoryData": {
+          "moves": {
+               "eviction": {
+                    "id": "eviction",
+                    "name": {
+                         "en": "Eviction",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "abbreviation": {
+                         "en": "Eviction",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "power": 0,
+                    "charge": 0,
+                    "wait": 0,
+                    "form": 0,
+                    "size": 0,
+                    "target": 0,
+                    "condition": 0,
+                    "healHP": 0,
+                    "healLife": 0,
+                    "buffFactor": 0,
+                    "forbidden": 0,
+                    "item": 0
+               }
+          },
+          "enemies": {
+               "mafia": {
+                    "id": "mafia",
+                    "characterName": {
+                         "en": "Mad Meats Grunt",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "level": 5,
+                    "hp": 25,
+                    "hpMax": 25,
+                    "strength": 1,
+                    "defense": 1,
+                    "walkWait": 1,
+                    "numberOfMoves": 1,
+                    "moneyHeld": 2,
+                    "experienceHeld": 10,
+                    "behaviorType": 0,
+                    "sequentialTalk": 0,
+                    "turnIcon": "spr_mafiaicon",
+                    "battleMoveName": [
+                         "pipeswing"
+                    ],
+                    "hurtVoice": [
+                         "snd_mafiahurt1",
+                         "snd_mafiahurt2"
+                    ],
+                    "talkLine": {
+                         "en": [
+                              "Are you resisting Mad Meats?",
+                              "Don't eat anywhere else!",
+                              "This is perfectly ethical!"
+                         ],
+                         "es": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "jp": [
+                              "マッドミートに盾突くのか？",
+                              "よその店でで食うなよ！",
+                              "倫理的にもOKってな！"
+                         ],
+                         "fr": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "br": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "ch": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "de": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "ru": [
+                              "",
+                              "",
+                              ""
+                         ]
+                    },
+                    "introLine": {
+                         "en": [
+                              "Eat at Mad Meats or else!",
+                              "We got a special deal at Mad Meats!",
+                              "Only eat at Mad Meats!"
+                         ],
+                         "es": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "jp": [
+                              "よそで食ったら承知しねえぞオラァ！",
+                              "マッドミートは大特価だ！",
+                              "マッドミートでしか食うなよ！"
+                         ],
+                         "fr": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "br": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "ch": [
+                              "",
+                              "",
+                              ""
+                         ],
+                         "ru": [
+                              "",
+                              "",
+                              ""
+                         ]
+                    }
+               },
+               "piss_vendor": {
+                    "id": "piss_vendor",
+                    "characterName": {
+                         "en": "Piss Vendor",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "level": "1",
+                    "hp": "1",
+                    "hpMax": "1",
+                    "strength": "1",
+                    "defense": "1",
+                    "walkWait": "1",
+                    "numberOfMoves": "1",
+                    "moneyHeld": "1",
+                    "experienceHeld": "1",
+                    "behaviorType": "1",
+                    "sequentialTalk": "1",
+                    "turnIcon": "piss_jar.png",
+                    "battleMoveName": [
+                         "Time to Piss!"
+                    ],
+                    "hurtVoice": [
+                         "pissing.mp3"
+                    ],
+                    "talkLine": {
+                         "en": [
+                              "ARE YOU READY FOR PISS?"
+                         ],
+                         "es": [
+                              ""
+                         ],
+                         "jp": [
+                              ""
+                         ],
+                         "fr": [
+                              ""
+                         ],
+                         "br": [
+                              ""
+                         ],
+                         "ch": [
+                              ""
+                         ],
+                         "de": [
+                              ""
+                         ],
+                         "ru": [
+                              ""
+                         ]
+                    },
+                    "introLine": {
+                         "en": [
+                              "Welcome to Jimmy Johns."
+                         ],
+                         "es": [
+                              ""
+                         ],
+                         "jp": [
+                              ""
+                         ],
+                         "fr": [
+                              ""
+                         ],
+                         "br": [
+                              ""
+                         ],
+                         "ch": [
+                              ""
+                         ],
+                         "de": [
+                              ""
+                         ],
+                         "ru": [
+                              ""
+                         ]
+                    }
+               }
+          },
+          "weapons": {
+               "dentedclub": {
+                    "id": "dentedclub",
+                    "name": {
+                         "en": "Dented Club",
+                         "es": "",
+                         "jp": "ボロいゴルフクラブ ",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "description": {
+                         "en": "Old club that is no longer viable for golf.",
+                         "es": "",
+                         "jp": "古くてゴルフには使えそうにない",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "icon": "spr_golfclub",
+                    "strength": 5,
+                    "defense": 0,
+                    "bonus": "None",
+                    "type": 0,
+                    "compatibility": 0,
+                    "price": 0
+               }
+          },
+          "armors": {
+               "longsleeves": {
+                    "id": "longsleeves",
+                    "name": {
+                         "en": "Long Sleeves",
+                         "es": "",
+                         "jp": "長袖",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "description": {
+                         "en": "Old club that is no longer viable for golf.",
+                         "es": "",
+                         "jp": "古くてゴルフには使えそうにない",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "icon": "spr_paperbag",
+                    "strength": 0,
+                    "defense": 5,
+                    "bonus": "None",
+                    "type": 1,
+                    "compatibility": 0,
+                    "price": 0
+               }
+          },
+          "accessories": {
+               "pocketlint": {
+                    "id": "pocketlint",
+                    "name": {
+                         "en": "Pocket Lint",
+                         "es": "",
+                         "jp": "ポケットの布切れ",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "description": {
+                         "en": "This is just dirt.",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "icon": "spr_paperbag",
+                    "strength": 0,
+                    "defense": 5,
+                    "bonus": "None",
+                    "type": 1,
+                    "compatibility": 0,
+                    "price": 0
+               }
+          },
+          "items": {
+               "taco": {
+                    "id": "taco",
+                    "name": {
+                         "en": "Taco",
+                         "es": "",
+                         "jp": "タコス",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "abbreviation": {
+                         "en": "Taco",
+                         "es": "",
+                         "jp": "タコス",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "description": {
+                         "en": "Heals 30 HP.",
+                         "es": "",
+                         "jp": "30HP回復する",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "icon": "spr_paperbag",
+                    "effect": 0,
+                    "healHP": 30,
+                    "healLife": 0,
+                    "buffFactor": 0,
+                    "bonus": "None",
+                    "type": 1,
+                    "compatibility": 0,
+                    "price": 0,
+                    "overworld": 1
+               }
+          },
+          "keyItems": {
+               "sewerkey": {
+                    "id": "sewerkey",
+                    "name": {
+                         "en": "Sewer Key",
+                         "es": "",
+                         "jp": "下水道の鍵",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "abbreviation": {
+                         "en": "Sewer Key",
+                         "es": "",
+                         "jp": "下水道の鍵",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "description": {
+                         "en": "Heals 30 HP.",
+                         "es": "",
+                         "jp": "30HP回復する",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "icon": "spr_paperbag",
+                    "effect": 0,
+                    "healHP": 0,
+                    "healLife": 0,
+                    "buffFactor": 0,
+                    "bonus": "None",
+                    "type": 1,
+                    "compatibility": 0,
+                    "price": 0,
+                    "overworld": 0
+               }
+          },
+          "locations": {
+               "falltowntaco": {
+                    "id": "falltowntaco",
+                    "room": "rm_falltowntaco",
+                    "section": {
+                         "en": "Shinecoast City",
+                         "es": "",
+                         "jp": "シャインコースト・シティ",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "subsection": {
+                         "en": "Tanako's Tacos",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    },
+                    "gridX": 0,
+                    "gridY": 0,
+                    "color": "orange",
+                    "shape": 0
+               }
+          },
+          "ui": {
+               "language": {
+                    "id": "language",
+                    "display": {
+                         "en": "English",
+                         "es": "Espanol",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    }
+               }
+          },
+          "other": {
+               "example": {
+                    "id": "example",
+                    "display": {
+                         "en": "Example",
+                         "es": "",
+                         "jp": "",
+                         "fr": "",
+                         "br": "",
+                         "ch": "",
+                         "de": "",
+                         "ru": ""
+                    }
+               }
+          },
+          "characterDialogueNames": {
+               "hazuki": {
+                    "id": "hazuki",
+                    "display": {
+                         "en": "Hazuki",
+                         "es": "Hazuki",
+                         "jp": "ハヅキ",
+                         "fr": "Hazuki",
+                         "br": "Hazuki",
+                         "ch": "Hazuki",
+                         "de": "Hazuki",
+                         "ru": "Hazuki"
+                    }
+               }
+          },
+          "foo": {
+               "bar": {
+                    "name": "Foo-Bar",
+                    "foo": "Bar",
+                    "id": "bar"
+               }
+          }
+     },
+     "categories": {
+          "accessories": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Accessory"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "description",
+                         "label": "Description",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "icon",
+                         "label": "Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "strength",
+                         "label": "Strength",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "defense",
+                         "label": "Defense",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "bonus",
+                         "label": "Bonus",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "type",
+                         "label": "Type",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "compatibility",
+                         "label": "Compatibility",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "price",
+                         "label": "Price",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    }
+               ],
+               "title": {
+                    "en": "Accessories",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "characterDialogueNames": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "display",
+                         "label": "Display",
+                         "localized": true,
+                         "defaultValue": "New Name"
+                    }
+               ],
+               "title": {
+                    "en": "Characters",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "display"
+          },
+          "enemies": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "characterName",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Enemy"
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "level",
+                         "label": "Level",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "hp",
+                         "label": "HP",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 999999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "hpMax",
+                         "label": "HP Max",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 999999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "strength",
+                         "label": "Strength",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "defense",
+                         "label": "Defense",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "walkWait",
+                         "label": "Walk Wait",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "numberOfMoves",
+                         "label": "Number of Moves",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 10
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "moneyHeld",
+                         "label": "Money",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "experienceHeld",
+                         "label": "Experience",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 999999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "behaviorType",
+                         "label": "Behavior",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "sequentialTalk",
+                         "label": "Sequential Talk",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "turnIcon",
+                         "label": "Turn Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "battleMoveName",
+                         "label": "Moves",
+                         "collectionType": "array",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "hurtVoice",
+                         "label": "Hurt Voice",
+                         "collectionType": "array",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "talkLine",
+                         "label": "Talk Line",
+                         "collectionType": "array",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "introLine",
+                         "label": "Intro Line",
+                         "collectionType": "array",
+                         "localized": true,
+                         "defaultValue": ""
+                    }
+               ],
+               "title": {
+                    "en": "Enemies",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "characterName"
+          },
+          "moves": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Move"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "abbreviation",
+                         "label": "Abbreviation",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "power",
+                         "label": "Power",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "charge",
+                         "label": "Charge",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "wait",
+                         "label": "Wait",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "form",
+                         "label": "Form",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "size",
+                         "label": "Size",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "target",
+                         "label": "Target",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "condition",
+                         "label": "Condition",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healHP",
+                         "label": "Heal HP",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healLife",
+                         "label": "Heal Life",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "buffFactor",
+                         "label": "Buff Factor",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "forbidden",
+                         "label": "Forbidden",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 1
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "item",
+                         "label": "Item",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 1
+                    }
+               ],
+               "title": {
+                    "en": "Moves",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "weapons": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Weapon"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "description",
+                         "label": "Description",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "icon",
+                         "label": "Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "strength",
+                         "label": "Strength",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "defense",
+                         "label": "Defense",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "bonus",
+                         "label": "Bonus",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "dataType",
+                         "label": "Type",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "compatibility",
+                         "label": "Compatibility",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "price",
+                         "label": "Price",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    }
+               ],
+               "title": {
+                    "en": "Weapons",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "armors": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Armor"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "description",
+                         "label": "Description",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "icon",
+                         "label": "Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "strength",
+                         "label": "Strength",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "defense",
+                         "label": "Defense",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "bonus",
+                         "label": "Bonus",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "dataType",
+                         "label": "Type",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "compatibility",
+                         "label": "Compatibility",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "price",
+                         "label": "Price",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    }
+               ],
+               "title": {
+                    "en": "Armors",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "items": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Item"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "abbreviation",
+                         "label": "Abbreviation",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "description",
+                         "label": "Description",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "icon",
+                         "label": "Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "effect",
+                         "label": "Effect",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healHP",
+                         "label": "Heal HP",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healLife",
+                         "label": "Heal Life",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "buffFactor",
+                         "label": "Buff Factor",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "bonus",
+                         "label": "Bonus",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "dataType",
+                         "label": "Type",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "compatibility",
+                         "label": "Compatibility",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "price",
+                         "label": "Price",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "overworld",
+                         "label": "Overworld",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 1
+                    }
+               ],
+               "title": {
+                    "en": "Items",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "keyItems": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "name",
+                         "label": "Name",
+                         "localized": true,
+                         "defaultValue": "New Item"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "abbreviation",
+                         "label": "Abbreviation",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "description",
+                         "label": "Description",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "icon",
+                         "label": "Icon",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "effect",
+                         "label": "Effect",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healHP",
+                         "label": "Heal HP",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "healLife",
+                         "label": "Heal Life",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "buffFactor",
+                         "label": "Buff Factor",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 100
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "bonus",
+                         "label": "Bonus",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "dataType",
+                         "label": "Type",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "compatibility",
+                         "label": "Compatibility",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "price",
+                         "label": "Price",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "overworld",
+                         "label": "Overworld",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 1
+                    }
+               ],
+               "title": {
+                    "en": "Key-Items",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "name"
+          },
+          "locations": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "room",
+                         "label": "Room",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "section",
+                         "label": "Section",
+                         "localized": true,
+                         "defaultValue": "New Location"
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "subsection",
+                         "label": "Subsection",
+                         "localized": true,
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "gridX",
+                         "label": "Grid X",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "gridY",
+                         "label": "gridY",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 9999
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "color",
+                         "label": "Color",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "number",
+                         "key": "shape",
+                         "label": "Shape",
+                         "defaultValue": 0,
+                         "min": 0,
+                         "max": 99
+                    }
+               ],
+               "title": {
+                    "en": "Locations",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "section"
+          },
+          "ui": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "display",
+                         "label": "Display",
+                         "localized": true,
+                         "defaultValue": "New UI Element"
+                    }
+               ],
+               "title": {
+                    "en": "UI",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "display"
+          },
+          "other": {
+               "template": [
+                    {
+                         "dataType": "text",
+                         "key": "id",
+                         "label": "ID",
+                         "defaultValue": ""
+                    },
+                    {
+                         "dataType": "text",
+                         "key": "display",
+                         "label": "Display",
+                         "localized": true,
+                         "defaultValue": "New Text"
+                    }
+               ],
+               "title": {
+                    "en": "Other",
+                    "es": "",
+                    "jp": "",
+                    "fr": "",
+                    "br": "",
+                    "ch": "",
+                    "de": "",
+                    "ru": ""
+               },
+               "nameField": "display"
+          },
+          "foo": {
+               "title": {
+                    "en": "Foo"
+               },
+               "nameField": "name",
+               "template": [
+                    {
+                         "key": "name",
+                         "label": "Foo Name",
+                         "collectionType": "none",
+                         "dataType": "text",
+                         "localized": false
+                    },
+                    {
+                         "key": "foo",
+                         "label": "Foo",
+                         "collectionType": "none",
+                         "dataType": "text",
+                         "localized": false
+                    }
+               ]
+          }
+     }
+}
